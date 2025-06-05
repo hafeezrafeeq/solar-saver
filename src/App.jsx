@@ -29,7 +29,7 @@ function App() {
     imageUrl: 'https://solarsaver.vercel.app/assets/before-slider-5RDoAMwp.webp'
   };
   return (
-    <>
+    <div className="w-full max-w-screen overflow-x-hidden">
       <Appbar
         innerClass="hidden"></Appbar>
       <Header></Header>
@@ -91,7 +91,7 @@ function App() {
         outerClass="flex flex-col gap-10 flex-wrap mb-10 justify-center items-center">
       </Appbar>
 
-      <Cloner></Cloner>
+      <Cloner></Cloner> 
 
 
 
@@ -104,7 +104,7 @@ function App() {
 
 
 
-    </>
+    </div>
   )
 }
 

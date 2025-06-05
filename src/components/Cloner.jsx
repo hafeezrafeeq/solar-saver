@@ -22,7 +22,7 @@ function Cloner() {
                     </a>
 
                     <a
-                        href="https://https://github.com/hafeezrafeeq031"
+                        href="https://github.com/hafeezrafeeq031"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-stone-600 hover:text-amber-500 transition duration-200 mx-4"

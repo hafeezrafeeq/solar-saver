@@ -25,9 +25,9 @@ html::-webkit-scrollbar-thumb {
 body {
   background-color: #231f1b;
   width: 100%;
-  
-  
- 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .div{

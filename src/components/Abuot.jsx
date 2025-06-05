@@ -21,22 +21,9 @@ function home() {
             </div>
 
 
-            <div className="mt-20 absolute top-680 z-10">
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-                <div className="w-screen h-15 border-line"></div>
-            </div>
 
             <div className="flex flex-col sm:flex-col + mx-5 md:flex-col + mx-10 lg:flex-row + mx-10 gap-10 justify-between items-end  relative z-20  ">
+            
 
                 <div className="flex flex-col w-full  gap-15 my-20">
                     <div className=" h-auto bg-gradient-to-r from-transparent to-amber-500">
