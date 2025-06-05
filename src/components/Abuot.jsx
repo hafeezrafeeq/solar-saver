@@ -1,6 +1,6 @@
 
 function home() {
-    return (
+    return  (
         <>
 
             <div className="px-12 flex flex-col sm:flex-col + text-start md:flex-row + text-center lg:flex-row + text-center gap-3 justify-between items-center mt-24">

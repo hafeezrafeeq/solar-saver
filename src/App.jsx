@@ -21,8 +21,6 @@ import Cloner from './components/Cloner'
 
 
 
-
-
 function App() {
   const FIRST_IMAGE = {
     imageUrl: 'https://solarsaver.vercel.app/assets/after-slider-zGc8hDen.webp'
@@ -35,11 +33,18 @@ function App() {
       <Appbar
         innerClass="hidden"></Appbar>
       <Header></Header>
+      <section id="Header" ></section>
       <Card></Card>
+
+      <section id="About" ></section>
       <Abuot></Abuot>
+
+      <section id="Tools"></section>
       <Tools></Tools>
 
+      <section id="Before"></section>
       <Before></Before>
+
       <div className='w-2/3 m-auto bottom-140'>
         <ReactBeforeSliderComponent
           firstImage={FIRST_IMAGE}
@@ -47,13 +52,15 @@ function App() {
 
         />
       </div>
-
+      <section id="Work"></section>
       <Work></Work>
       <Map></Map>
+      <section id="Work"></section>
       <Slider></Slider>
       <CastumerReview></CastumerReview>
 
 
+      <section id="Question"></section>
       <Question
         question="WHAT IS SOLAR ENERGY?"
         answer="Solar panels work by capturing sunlight through photovoltaic cells, which convert the sunlight into direct current (DC) electricity. An inverter then converts the DC electricity into alternating current (AC) electricity for use in homes and businesses."
@@ -85,6 +92,14 @@ function App() {
       </Appbar>
 
       <Cloner></Cloner>
+
+
+
+
+
+
+
+
 
 
 

@@ -1,8 +1,10 @@
 
-function home() {
 
-  return (
-    
+function home() {
+  
+  
+  return <section id="Headar"> (
+
     <div className="px-6 text-center flex flex-col items-center ">
       <h1 className="text-amber-500 heding mt-15 lg:text-8xl md:text-7xl sm:text-6xl text-5xl ">Does Your Home <i className="text-stone-50 not-italic"> Need Quality </i></h1>
       <h1 className="text-stone-50 heding lg:text-8xl md:text-7xl sm:text-6xl text-5xl ">Solar Panel Installation? </h1>
@@ -21,7 +23,8 @@ function home() {
     </div>
 
 
-  )
+    )
+  </section>
 
 }
 

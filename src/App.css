@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+  width: 5px; 
+  background-color: #231f1b;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #e19223;
+  border-radius: 10px;
+}
 
 
 .heding{
@@ -12,7 +24,7 @@
 
 body {
   background-color: #231f1b;
-  width: auto;
+  width: 100%;
   
   
  

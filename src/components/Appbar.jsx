@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 
-function Appbar({ showMenu = true, showButton = true , innerClass="", outerClass="" }) {
+function Appbar({ showMenu = true, showButton = true, innerClass = "", outerClass = "" }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -15,17 +15,30 @@ function Appbar({ showMenu = true, showButton = true , innerClass="", outerClass
       </div>
 
       {/* Desktop Menu */}
-    
-        <ul className={`md:flex flex gap-5 flex-wrap lg:gap-14 md:gap-5 text-stone-50 justify-center font-normal ${innerClass}`}>
-          <li className="hover:text-yellow-500 cursor-pointer">Pricing</li>
-          <li className="hover:text-yellow-500 cursor-pointer">About</li>
-          <li className="hover:text-yellow-500 cursor-pointer">Tools</li>
-          <li className="hover:text-yellow-500 cursor-pointer">How it Works</li>
-          <li className="hover:text-yellow-500 cursor-pointer">Testimonials</li>
-          <li className="hover:text-yellow-500 cursor-pointer">FAQ</li>
-        </ul>
 
-      
+      <ul className={`md:flex flex gap-5 flex-wrap lg:gap-14 md:gap-5 text-stone-50 justify-center font-normal ${innerClass}`}>
+        <li className="hover:text-yellow-500 cursor-pointer">
+          <a href="#Header">Pricing</a>
+        </li>
+        <li className="hover:text-yellow-500 cursor-pointer">
+          <a href="#About">About</a>
+        </li>
+        <li className="hover:text-yellow-500 cursor-pointer">
+          <a href="#Tools">Tools</a>
+        </li>
+        <li className="hover:text-yellow-500 cursor-pointer">
+          <a href="#Work">How it Works</a>
+        </li>
+        <li className="hover:text-yellow-500 cursor-pointer">
+          <a href="#Before">Testimonials</a>
+        </li>
+        <li className="hover:text-yellow-500 cursor-pointer">
+          <a href="#Question">FAQ</a>
+        </li>
+
+      </ul>
+
+
 
       {/* Desktop Button */}
       {showButton && (
@@ -46,7 +59,7 @@ function Appbar({ showMenu = true, showButton = true , innerClass="", outerClass
         </div>
       )}
 
- 
+
       {menuOpen && showMenu && (
         <div className="absolute top-full left-0 text-stone-50 hover:text-stone-50 w-full bg-[rgba(255, 255, 255, 0.07)] backdrop-blur-lg p-6 rounded-xl shadow-md flex flex-col items-center py-4 md:hidden space-y-4 z-10">
           <a className="hover:text-amber-500">Pricing</a>
