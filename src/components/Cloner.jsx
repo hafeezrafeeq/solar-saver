@@ -49,12 +49,12 @@ function Cloner() {
                         <FontAwesomeIcon icon={faSquareBehance} size="2x" />
                     </a>
 
-
                 </div>
             </div>
- 
-            <div className=' text-center flex justify-around items-center text-stone-800 bg-stone-400 lg:none md:none sm:hidden '>
-                <h1>@ 2024 Solar Saver , All Rights Reserved.</h1><br />
+
+
+            <div className=' text-center px-20 flex justify-between items-center text-stone-800 bg-stone-600 lg:none md:none  '>
+                <h1>@ 2025 Solar Saver , All Rights Reserved.</h1>
                 <h2>(Suitable for portfolio/personal site)</h2>
             </div>
         </>

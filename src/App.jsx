@@ -21,6 +21,7 @@ import Cloner from './components/Cloner'
 
 
 
+
 function App() {
   const FIRST_IMAGE = {
     imageUrl: 'https://solarsaver.vercel.app/assets/after-slider-zGc8hDen.webp'
@@ -65,6 +66,7 @@ function App() {
         question="WHAT IS SOLAR ENERGY?"
         answer="Solar panels work by capturing sunlight through photovoltaic cells, which convert the sunlight into direct current (DC) electricity. An inverter then converts the DC electricity into alternating current (AC) electricity for use in homes and businesses."
         className=" mt-40 "
+       
       />
 
 
@@ -91,7 +93,7 @@ function App() {
         outerClass="flex flex-col gap-10 flex-wrap mb-10 justify-center items-center">
       </Appbar>
 
-      <Cloner></Cloner> 
+      <Cloner></Cloner>
 
 
 
