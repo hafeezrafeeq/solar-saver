@@ -17,7 +17,7 @@ function card() {
             <button className="mt-8 bg-amber-500 text-white px-5 py-2 rounded-lg hover:bg-stone-50 hover:text-yellow-500 transition duration-200">
               Calculate Solar </button>
 
-          </div>
+  </div>
 
 
           <div className="lg:w-110 + items-start md:w-110 + items-start sm:w-screen + items-center + flex + flex-col  h-auto bg-stone-900 p-6 rounded-xl">
@@ -41,7 +41,7 @@ function card() {
             <button className="mt-8 bg-amber-500 text-white px-5 py-2 rounded-lg hover:bg-stone-50 hover:text-yellow-500 transition duration-200">
               Calculate Solar </button>
 
-          </div>
+          </div>bdjhwuh/mm,mlk kjk0mnjdjk
 
         </div>
 
@@ -53,13 +53,12 @@ function card() {
 
       </div>
 
-
-
-
-
-    </>
+koiddkkj
+muzamil latif usama king   promiscar full in chazi alll be care full muzamil ayo  const kd,mj- = new type(arguments); tob be    </>
   )
 
 }
 
 export default card;
+
+

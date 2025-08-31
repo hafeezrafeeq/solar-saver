@@ -15,7 +15,7 @@ export default function Question({ question, answer, className = "" }) {
                 )}
             </div>
             {open && (
-                <p className="mt-4 text-stone-50 text-lg mt-8">
+                <p className="mt-4 text-stone-50 text-lg ">
                     {answer}
                 </p>
             )}

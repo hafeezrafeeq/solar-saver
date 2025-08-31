@@ -22,7 +22,7 @@ function Cloner() {
                     </a>
 
                     <a
-                        href="https://github.com/hafeezrafeeq031"
+                        href="https://github.com/hafeezrafeeq"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-stone-600 hover:text-amber-500 transition duration-200 mx-4"
@@ -53,7 +53,7 @@ function Cloner() {
             </div>
 
 
-            <div className=' text-center px-20 flex justify-between items-center text-stone-800 bg-stone-600 lg:none md:none  '>
+            <div className=' text-center px-20 flex justify-around items-center text-stone-700 hidden bg-stone-400 lg:flex gap-1 text-sm'>
                 <h1>@ 2025 Solar Saver , All Rights Reserved.</h1>
                 <h2>(Suitable for portfolio/personal site)</h2>
             </div>
