@@ -41,7 +41,7 @@ function card() {
             <button className="mt-8 bg-amber-500 text-white px-5 py-2 rounded-lg hover:bg-stone-50 hover:text-yellow-500 transition duration-200">
               Calculate Solar </button>
 
-          </div>bdjhwuh/mm,mlk kjk0mnjdjk
+          </div>
 
         </div>
 
